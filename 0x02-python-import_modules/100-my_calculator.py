@@ -11,17 +11,17 @@ if __name__ == "__main__":
         sys.exit(1)
 
     a = int(argv[1])
+    operator = argv[2]
     b = int(argv[3])
-    operator = int(argv[2])
     ans = 0
 
-    if operator == "+":
+    if operator == '+':
         ans = add(a, b)
-    elif operator == "-":
+    elif operator == '-':
         ans = sub(a, b)
-    elif operator == "*":
+    elif operator == '*':
         ans = mul(a, b)
-    elif operator == "/":
+    elif operator == '/':
         ans = div(a, b)
     else:
         print("Unknown operator. Available operators: +, -, * and /")
