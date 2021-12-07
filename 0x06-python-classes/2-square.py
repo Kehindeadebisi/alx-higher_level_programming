@@ -18,7 +18,7 @@ class Square:
         Attributes:
             size :size of square
 
-        Raises:
+        raise:
             TypeError: If `size` type is not `int`.
             ValueError: If `size` is less than `0`.
 
