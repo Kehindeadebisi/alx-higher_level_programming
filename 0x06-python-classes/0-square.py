@@ -4,5 +4,6 @@
 does nothing for now
 """
 
+
 class Square:
     pass
