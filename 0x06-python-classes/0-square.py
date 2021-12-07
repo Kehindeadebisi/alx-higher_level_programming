@@ -4,6 +4,6 @@
 
 
 class Square:
-    """Creates a new object of class Square
+    """Creates an object of class Square
     """
     pass
