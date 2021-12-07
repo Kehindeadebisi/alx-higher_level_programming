@@ -1,13 +1,15 @@
 #!/usr/bin/python3
-
-"""Square class
-
-does nothing yet
-
+"""
+Define a Square class
 """
 
 
 class Square:
+    """
+    Creates an object of class Square
+    """
+    pass
+
 
     def __init__(self, size):
         """__init__
