@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""class square
+"""Square class
 
 does nothing for now
 """
