@@ -16,10 +16,13 @@ class Square:
         initializes size
 
         Attributes:
-        size :size of square
+            size :size of square
+
+        Raises:
+            TypeError: If `size` type is not `int`.
+            ValueError: If `size` is less than `0`.
 
         """
-        self.__size = size
 
         if type(size) is not int:
             raise TypeError("size must be an integer")
