@@ -1,10 +1,24 @@
 #!/usr/bin/python3
+"""
+Module: 0-rectangle.py
+creation of class Rectangle
+"""
+
+
 class Rectangle:
+    """Class Rectanglle:
+    an empty class
+    """
+
     def __init__(self, width=0, height=0):
+        """initializing
+        """
         self.__width
-    @property
+
+        @property
     def width(self):
         return self.width
+
     @width.setter
     def width(self, value):
         if type(value) is not int:
@@ -24,5 +38,5 @@ class Rectangle:
             raise TypeError("height must be an integer")
         if value < 0:
             raise ValueError("height must be an >= 0")
-        
+
         self.__height = value
